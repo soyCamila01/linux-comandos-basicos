@@ -6,3 +6,20 @@ Este archivo contiene ejemplos de comandos esenciales de Linux.
 3. mv → Mueve archivos.  
 4. cp → Copia archivos y carpetas.  
 5. chmod → Modifica permisos.  
+6. ps aux → Muestra los procesos activos en el sistema.
+7. kill → Permite cerrar procesos por ID.
+8. jobs → Muestra procesos en segundo plano.
+9. fg → Trae un proceso del fondo al primer plano.
+10.echo "texto" → Imprime un mensaje en la terminal.
+11.touch archivo.txt → Crea un archivo vacío.
+12.rm archivo.txt → Elimina un archivo.
+13.mkdir carpeta → Crea una nueva carpeta.
+14.rmdir carpeta → Borra una carpeta vacía.
+15.grep "palabra" archivo.txt → Busca una palabra dentro de un archivo.
+16.*find /ruta -name "archivo" → Busca archivos por nombre en un directorio.
+17.df -h → Muestra el espacio disponible en los discos.
+18.du -sh carpeta/ → Muestra el tamaño de una carpeta.
+19.tar -cvf archivo.tar carpeta/ → Comprime una carpeta en un archivo .tar.
+20.tar -xvf archivo.tar → Descomprime un archivo .tar.
+21.ping www.google.com → Comprueba conexión a internet.
+22.wget URL → Descarga un archivo desde una URL.
