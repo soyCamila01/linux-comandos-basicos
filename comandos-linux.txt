@@ -1,0 +1,8 @@
+# Comandos Básicos de Linux 🚀  
+Este archivo contiene ejemplos de comandos esenciales de Linux.  
+
+1. ls → Lista archivos y carpetas.  
+2. cd → Cambia de directorio.  
+3. mv → Mueve archivos.  
+4. cp → Copia archivos y carpetas.  
+5. chmod → Modifica permisos.  
