@@ -1,15 +1,13 @@
- HEAD
-.cache/  HEAD
-.cache/ 66ee58a (Ignorando archivos de caché para evitar conflictos)
+# Ignorar archivos de caché del sistema
+.cache/
 
-.cache/
-.cache/
- HEAD
- f863e22 (Ignorando archivos de caché del sistema)
+# Ignorar archivos temporales del sistema
+*.log
+*.tmp
+*.swp
 
-.cache/
- HEAD
- 4fd171b (Ignorando archivos del sistema para evitar conflictos)
+# Ignorar configuraciones específicas del entorno
+.env
+node_modules/
+dist/
 
-.cache/
- eac98f7 (Ignorando archivos temporales del sistema)
