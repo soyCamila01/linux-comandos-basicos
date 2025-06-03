@@ -1,7 +1,11 @@
  HEAD
 .cache/  HEAD
 .cache/ 66ee58a (Ignorando archivos de caché para evitar conflictos)
-=======
+
 .cache/
 .cache/
+ HEAD
  f863e22 (Ignorando archivos de caché del sistema)
+
+.cache/
+ 4fd171b (Ignorando archivos del sistema para evitar conflictos)
