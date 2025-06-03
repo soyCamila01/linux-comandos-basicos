@@ -1,2 +1,2 @@
-.cache/
-.cache/
+.cache/  HEAD
+.cache/ 66ee58a (Ignorando archivos de caché para evitar conflictos)
