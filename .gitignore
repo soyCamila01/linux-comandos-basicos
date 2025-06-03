@@ -8,4 +8,8 @@
  f863e22 (Ignorando archivos de caché del sistema)
 
 .cache/
+ HEAD
  4fd171b (Ignorando archivos del sistema para evitar conflictos)
+
+.cache/
+ eac98f7 (Ignorando archivos temporales del sistema)
