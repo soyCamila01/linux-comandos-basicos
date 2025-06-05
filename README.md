@@ -40,3 +40,28 @@ Si tienes sugerencias o mejoras, ¡toda aportación es bienvenida! Puedes hacer 
 
 🚀 ¡Vamos por más! 💻🔍  
 
+
+# Script Interactivo en Bash  
+
+Este script solicita el nombre del usuario y muestra un mensaje de bienvenida.  
+
+## Uso  
+Ejecuta los siguientes comandos para hacer el script ejecutable y ejecutarlo:  
+```bash
+chmod 755 script_interactivo.sh  
+./script_interactivo.sh  
+
+Autor
+Creado por Camila Velázquez
+Licencia
+Este script se comparte bajo la licencia MIT.
+
+📌 **✅ Paso 3: Guardar y salir**  
+Pulsa `CTRL + X`, luego `Y` y `ENTER`.  
+
+📌 **✅ Paso 4: Subirlo a GitHub**  
+Ejecuta en la terminal:  
+```bash
+git add README.md  
+git commit -m "Agregando documentación"  
+git push -u origin main  
