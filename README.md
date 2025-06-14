@@ -135,8 +135,6 @@ Este script solicita al usuario su nombre y muestra un saludo personalizado. Es 
 ```bash
 chmod +x script.sh
 ./script.sh
-
-
+```
 Autor: Camila Velázquez
 Licencia: MIT
-```
