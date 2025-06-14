@@ -125,3 +125,17 @@ git add README.md
 git commit -m "Adding Bash script and documentation"  
 git push -u origin main
 ```
+---
+
+### 🎯 script.sh – Script Interactivo en Bash
+
+Este script solicita al usuario su nombre y muestra un saludo personalizado. Es ideal para practicar entrada de datos, permisos de ejecución y variables en Bash.
+
+#### 📌 Uso
+```bash
+chmod +x script.sh
+./script.sh
+
+Autor: Camila Velázquez
+Licencia: MIT
+
