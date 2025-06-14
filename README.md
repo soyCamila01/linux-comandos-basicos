@@ -49,7 +49,7 @@ Este script solicita el nombre del usuario y muestra un mensaje de bienvenida.
 Ejecuta los siguientes comandos para hacer el script ejecutable y ejecutarlo:  
 ```bash
 chmod 755 script_interactivo.sh  
-./script_interactivo.sh  
+./script_interactivo.sh 
 
 Autor
 Creado por Camila Velázquez
@@ -114,7 +114,8 @@ Make the script executable and run it using the following commands:
 chmod 755 script_interactivo.sh  
 ./script_interactivo.sh
 ```
- 👤 Author: Camila Velázquez
+
+👤 Author: Camila Velázquez
 📄 License: MIT License
 📌 ✅ Step 3: Save and Exit
 Press CTRL + X, then Y, then ENTER to save and exit the file in the terminal.
@@ -122,6 +123,5 @@ Press CTRL + X, then Y, then ENTER to save and exit the file in the terminal.
 Run the following commands to commit and upload your changes:
 git add README.md  
 git commit -m "Adding Bash script and documentation"  
-git push -u origin main  
-
-
+git push -u origin main
+```
