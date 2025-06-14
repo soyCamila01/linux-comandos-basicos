@@ -64,4 +64,64 @@ Ejecuta en la terminal:
 ```bash
 git add README.md  
 git commit -m "Agregando documentación"  
+git push -u origin main
+
+
+---
+
+## 🇬🇧 English Version – Linux: Basic Commands 🚀
+This repository contains a curated list of essential Linux commands, organized for easy learning and quick reference.
+
+📜 **Contents**  
+🔹 **Navigation Commands**  
+`ls` → Lists files and directories  
+`cd` → Changes directory  
+`pwd` → Shows current path  
+
+🔹 **Permissions and Files**  
+`chmod` → Modifies file permissions  
+`chown` → Changes file owner  
+`touch` → Creates an empty file  
+
+🔹 **Search and Processing**  
+`grep` → Searches for text within files  
+`find` → Finds files based on criteria  
+`awk` → Processes text in files  
+
+🔹 **Basic Git**  
+`git clone` → Clones a repository  
+`git commit -m "Message"` → Saves changes  
+`git push origin main` → Pushes changes to the repository  
+
+📌 This repository will be updated with more commands and practical examples as the course progresses.
+
+🛠 **Tools Used**  
+🖥️ VirtualBox: To run Ubuntu  
+⚙️ GitHub: To document commands and scripts  
+✏️ VS Code: Code editor for editing files easily  
+📝 **How to Contribute**  
+Suggestions or improvements are welcome!  
+You can fork this repository and submit a pull request with your changes.
+📢 **Goal**: Learn and document Linux commands for future reference in DevSecOps.
+### 🖥️ Bash Interactive Script
+
+This script prompts the user to enter their name and then displays a personalized welcome message.
+
+**Usage**  
+Make the script executable and run it using the following commands:
+
+```bash
+chmod 755 script_interactivo.sh  
+./script_interactivo.sh
+```
+ 👤 Author: Camila Velázquez
+📄 License: MIT License
+📌 ✅ Step 3: Save and Exit
+Press CTRL + X, then Y, then ENTER to save and exit the file in the terminal.
+📌 ✅ Step 4: Push to GitHub
+Run the following commands to commit and upload your changes:
+git add README.md  
+git commit -m "Adding Bash script and documentation"  
 git push -u origin main  
+
+
