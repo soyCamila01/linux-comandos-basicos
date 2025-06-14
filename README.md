@@ -1,36 +1,40 @@
-Linux: Comandos Básicos 🚀
+---
+
+# Linux: Comandos Básicos 🚀
 
 Este repositorio contiene una recopilación de comandos esenciales de Linux, organizados para facilitar el aprendizaje y la consulta rápida.
 
+🔄 [English version](#english-version--linux-basic-commands-)
 
 ---
 
-📜 Contenido
+## 📜 Contenido
 
-🔹 Comandos de Navegación
+### 🔹 Comandos de Navegación
 
-ls        # Lista archivos y directorios
-cd        # Cambia de directorio
+```bash
+ls        # Lista archivos y directorios  
+cd        # Cambia de directorio  
 pwd       # Muestra la ruta actual
 
 🔹 Permisos y Archivos
 
-chmod     # Modifica permisos de archivos y directorios
-chown     # Cambia el propietario de un archivo
+chmod     # Modifica permisos de archivos y directorios  
+chown     # Cambia el propietario de un archivo  
 touch     # Crea un archivo vacío
 
 🔹 Búsqueda y Procesamiento
 
-grep      # Busca texto dentro de archivos
-find      # Encuentra archivos según criterios
+grep      # Busca texto dentro de archivos  
+find      # Encuentra archivos según criterios  
 awk       # Procesa texto en archivos
 
 🔹 Git Básico
 
-git init                 # Inicializa un nuevo repositorio
-git clone <url>         # Clona un repositorio existente
-git commit -m "Mensaje"  # Guarda cambios
-git push origin main    # Envía cambios al repositorio
+git init                   # Inicializa un nuevo repositorio  
+git clone <url>           # Clona un repositorio existente  
+git commit -m "Mensaje"   # Guarda cambios  
+git push origin main      # Envía cambios al repositorio
 
 
 ---
@@ -54,7 +58,8 @@ git push origin main    # Envía cambios al repositorio
 
 📝 Cómo Contribuir
 
-Si tienes sugerencias o mejoras, ¡toda aportación es bienvenida! Puedes hacer un fork del proyecto y enviar un pull request con tus cambios.
+Si tienes sugerencias o mejoras, ¡toda aportación es bienvenida!
+Puedes hacer un fork del proyecto y enviar un pull request con tus cambios.
 
 
 ---
@@ -72,7 +77,7 @@ Este script solicita al usuario su nombre y muestra un saludo personalizado. Es 
 
 📌 Uso
 
-1. Crea un archivo llamado script_interactivo.sh
+1. Crea un archivo llamado script_interactivo.sh.
 
 
 2. Agrega el siguiente contenido:
@@ -105,6 +110,9 @@ chmod +x script_interactivo.sh
 
 Camila Velázquez
 
+
+---
+
 📄 Licencia
 
 MIT License
@@ -123,28 +131,28 @@ This repository contains a curated list of essential Linux commands, organized f
 
 🔹 Navigation Commands
 
-ls        # Lists files and directories
-cd        # Changes directory
+ls        # Lists files and directories  
+cd        # Changes directory  
 pwd       # Shows current path
 
 🔹 Permissions and Files
 
-chmod     # Modifies file and directory permissions
-chown     # Changes file owner
+chmod     # Modifies file and directory permissions  
+chown     # Changes file owner  
 touch     # Creates an empty file
 
 🔹 Search and Processing
 
-grep      # Searches for text within files
-find      # Finds files based on criteria
+grep      # Searches for text within files  
+find      # Finds files based on criteria  
 awk       # Processes text in files
 
 🔹 Basic Git
 
-git init                 # Initializes a new repository
-git clone <url>         # Clones a repository
-git commit -m "Message"  # Saves changes
-git push origin main    # Pushes changes to the repository
+git init                   # Initializes a new repository  
+git clone <url>           # Clones a repository  
+git commit -m "Message"   # Saves changes  
+git push origin main      # Pushes changes to the repository
 
 
 ---
@@ -168,7 +176,8 @@ git push origin main    # Pushes changes to the repository
 
 📈 How to Contribute
 
-Suggestions or improvements are welcome! You can fork this repository and submit a pull request with your changes.
+Suggestions or improvements are welcome!
+You can fork this repository and submit a pull request with your changes.
 
 
 ---
@@ -186,7 +195,7 @@ This script prompts the user to enter their name and then displays a personalize
 
 📌 Usage
 
-1. Create a file named script_interactivo.sh
+1. Create a file named script_interactivo.sh.
 
 
 2. Add the following content:
@@ -219,7 +228,11 @@ chmod +x script_interactivo.sh
 
 Camila Velázquez
 
+
+---
+
 📄 License
 
 MIT License
 
+---
