@@ -39,8 +39,15 @@ git push origin main      # Envía cambios al repositorio
 
 ---
 
+
 📌 Este repositorio se actualizará con más comandos y ejemplos prácticos a medida que avance el curso.
 
+=======
+## 🛠 Herramientas Usadas  
+- 🖥 *VirtualBox*: Para ejecutar Debian  
+- ⚙ *GitHub*: Para documentar comandos y scripts  
+- ✏ *VS Code*: Editor de código para editar archivos fácilmente  
+>>>>>>> 4acdc31 (Actualización de documentación y mejoras en código)
 
 ---
 
