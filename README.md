@@ -243,3 +243,51 @@ Camila Velázquez
 MIT License
 
 ---
+
+# Bitácora Técnica – Día 8: Configuración Segura de SSH en Debian
+
+Este repositorio documenta mi experiencia real configurando y asegurando el acceso SSH en un servidor Debian. Forma parte del **Día 8 del Plan de Entrenamiento Élite DevSecOps**, enfocado en aprender con práctica real, resolución de problemas y documentación clara.
+
+---
+
+## 🔐 Objetivo
+
+- Activar y asegurar el servicio SSH
+- Configurar autenticación por clave pública
+- Desactivar el acceso por contraseña
+- Reforzar la configuración (`sshd_config`) para máxima seguridad
+
+---
+
+## 🛠️ Pasos Realizados
+
+- Instalación y verificación de `openssh-server`
+- Análisis de puertos y estado del servicio con `ss`, `systemctl`, `ip a`
+- Corrección de error `Connection refused` (diagnóstico de IP incorrecta)
+- Generación de par de claves con `ssh-keygen`
+- Transferencia segura con `ssh-copy-id`
+- Desactivación de `PasswordAuthentication`
+- Validación de acceso exitoso sin contraseña
+- Ajuste de parámetros como `PermitRootLogin`, `ChallengeResponseAuthentication`
+
+---
+
+## 💡 Aprendizajes
+
+- Cómo diagnosticar y resolver errores de red SSH paso a paso
+- Importancia de verificar la IP real del host con `ip a`
+- Cómo fortificar el servicio SSH a nivel de configuración
+- Gestión segura del acceso remoto en sistemas Linux
+
+---
+
+## 🚀 Próximo Paso
+
+- Agregar esta bitácora a mi portafolio técnico
+- Automatizar la configuración SSH en un script Bash
+- Comenzar fase de contenedores y CI/CD (Docker + GitHub Actions)
+
+---
+
+> “Cada línea de configuración bien pensada es una puerta menos para los intrusos.”  
+> — Cami, desde el Día 8 de su camino DevSecOps ☁️🛡️
