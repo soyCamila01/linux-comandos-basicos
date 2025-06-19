@@ -308,3 +308,10 @@ Este script automatiza la instalación y activación del servicio SSH en un sist
 
 ```bash
 sudo ./configuracion_ssh_segura.sh
+
+🧰 Scripts Destacados
+Día	Script	Descripción breve
+8	linux-comandos-basicos	Comandos fundamentales de Linux documentados con claridad didáctica.
+9	configuracion_ssh_segura.sh	Automatiza la instalación y configuración segura del servicio SSH en Debian.
+–	script_interactivo.sh Script que saluda de forma dinámica al usuario. Ideal para practicar entrada de datos.
+–	setuid_ejemplo.sh Demostración básica de un script con permisos especiales (setuid), útil para aprendizaje de permisos.
