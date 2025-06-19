@@ -292,26 +292,19 @@ Este repositorio documenta mi experiencia real configurando y asegurando el acce
 > “Cada línea de configuración bien pensada es una puerta menos para los intrusos.”  
 > — Cami, desde el Día 8 de su camino DevSecOps ☁️🛡️
 
----
+🔐 Script Bash – Configuración SSH Segura (Día 9)
+Este script automatiza tareas clave de acceso remoto en sistemas Debian/Ubuntu como parte de mi formación técnica en DevSecOps.
 
-### 🔐 Script Bash – Configuración SSH Segura (Día 9)
+⚙️ ¿Qué hace?
+Instala y activa el servicio openssh-server
 
-Este script automatiza la instalación y activación del servicio SSH en un sistema Debian/Ubuntu como parte del aprendizaje DevSecOps.
+Genera claves SSH si no existen (~/.ssh/id_rsa)
 
-#### ⚙️ Requisitos
+Solicita una IP remota y transfiere tu clave pública usando ssh-copy-id
 
-- Sistema Debian/Ubuntu
-- Acceso como `root` o uso de `sudo`
-- Conexión a Internet
+Verifica el estado actual del servicio SSH
 
-#### 🚀 Instrucciones de uso
+🚀 Instrucciones de uso
 
-```bash
 sudo ./configuracion_ssh_segura.sh
-
-🧰 Scripts Destacados
-Día	Script	Descripción breve
-8	linux-comandos-basicos	Comandos fundamentales de Linux documentados con claridad didáctica.
-9	configuracion_ssh_segura.sh	Automatiza la instalación y configuración segura del servicio SSH en Debian.
-–	script_interactivo.sh Script que saluda de forma dinámica al usuario. Ideal para practicar entrada de datos.
-–	setuid_ejemplo.sh Demostración básica de un script con permisos especiales (setuid), útil para aprendizaje de permisos.
+> Automatizar no es hacer menos. Es diseñar para que funcione mejor. 💻✨
