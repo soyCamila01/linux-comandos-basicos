@@ -291,3 +291,20 @@ Este repositorio documenta mi experiencia real configurando y asegurando el acce
 
 > “Cada línea de configuración bien pensada es una puerta menos para los intrusos.”  
 > — Cami, desde el Día 8 de su camino DevSecOps ☁️🛡️
+
+---
+
+### 🔐 Script Bash – Configuración SSH Segura (Día 9)
+
+Este script automatiza la instalación y activación del servicio SSH en un sistema Debian/Ubuntu como parte del aprendizaje DevSecOps.
+
+#### ⚙️ Requisitos
+
+- Sistema Debian/Ubuntu
+- Acceso como `root` o uso de `sudo`
+- Conexión a Internet
+
+#### 🚀 Instrucciones de uso
+
+```bash
+sudo ./configuracion_ssh_segura.sh
