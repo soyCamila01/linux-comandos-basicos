@@ -308,3 +308,9 @@ Verifica el estado actual del servicio SSH
 
 sudo ./configuracion_ssh_segura.sh
 > Automatizar no es hacer menos. Es diseñar para que funcione mejor. 💻✨
+
+#### 🛡️ Endurecimiento de SSH
+
+- Desactiva el acceso remoto por contraseña (`PasswordAuthentication no`)
+- Bloquea el acceso directo del usuario `root`
+- Desactiva métodos de autenticación inseguros como `ChallengeResponse`
